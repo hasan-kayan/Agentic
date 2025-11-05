@@ -1,0 +1,16 @@
+/venv
+.env
+.env*
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+node_modules
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.log

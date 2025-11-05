@@ -1,0 +1,55 @@
+# Core AI and API
+openai>=2.5.0
+anthropic==0.21.3
+
+# Database
+sqlalchemy>=2.0.40
+alembic==1.13.1
+# psycopg2-binary==2.9.9  # Not compatible with Python 3.13 yet
+aiosqlite==0.20.0
+greenlet>=3.0.0
+
+# Web Framework
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Security
+cryptography==42.0.2
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# Terminal and System
+pexpect==4.9.0
+psutil==5.9.8
+
+# Web Search and Research
+requests==2.31.0
+beautifulsoup4==4.12.3
+duckduckgo-search==4.4.3
+
+# Code Analysis
+pylint==3.0.3
+black==24.2.0
+pytest==7.4.4
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.9
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.2
+aiofiles==23.2.1
+jinja2==3.1.3
+rich==13.7.0
+typer==0.9.0
+
+# Browser automation for testing
+playwright==1.48.0
+
+
