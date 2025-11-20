@@ -1,7 +1,0 @@
-"""API routes package"""
-
-
-
-
-
-
